@@ -1,0 +1,37 @@
+BeebEm AIV
+----------
+
+This emulator a modifed version of BeebEm that includes emulation of the 'Advanced Intereactive Video'
+features as used on the 1986 BBC Domesday Project.
+
+The emulator was originally produced as a proof of concept for a  project called CAMiLEON a collaboration between
+the Universities of Leeds and Michigan. 
+
+The emulator is not yet complete, but it quite graphically illustrates the experience of using the original system.
+
+Known Issues
+------------ 
+
+Currently works under windows only.
+
+When the emulator fails to establish contact with the source of images, the program crashes instead of producing an
+intelligent error message. 
+
+After several interactions, it freezes. 
+
+Movie emulation is very crude, and only shows every fifth frame. 
+
+The movement of the cursor is rather quirky.
+ 
+The event processing is very basic, and as a result, the response to the keyboard can be problematic.
+
+
+Running the emulation on a Windows PC
+-------------------------------------
+
+You need to run a secondary program alongside the emulator proper in order to decompress the JPEG files.
+This is the program Decompress.jar. You can just double click this, but the diagnostics are then lost.
+In order to see the diagnostic output, open a command window, cd to the Domesday directory, and type...
+java -jar Decompress.jar.
+
+
